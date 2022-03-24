@@ -18,3 +18,202 @@ html {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.btn{
+    display: inline-block;
+    background: rgba(255, 255, 255, 1);
+    border-radius: 22.5px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF800B;
+    padding: 14px 25px;
+    border: 0;
+}
+
+.btn--sm {
+    border-radius: 15px;
+    padding: 14px;
+}
+
+.header__btns .btn{
+    margin-left: 13px;
+}
+
+.btn--icon{
+    display:flex ;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    background: #FDB827;
+    border-radius: 33px;
+    padding: 22px 42px;
+}
+
+.btn--icon img{
+    margin-left: 19px;
+}
+
+/*HEADER*/
+
+.header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.logo{}
+
+.logo img{}
+
+.menu{}
+
+.menu a{
+    font-weight: 500;
+    font-size: 18px;
+    align-items: center;
+    color: rgba(35, 53, 6, 1);
+    text-decoration: none;
+    margin: 0 23px;
+}
+
+
+
+
+/* FS */
+
+.fs{
+    background: rgba(255, 249, 242, 1);
+    position: relative;
+    padding: 100px 0 50px;
+    padding: 170px 0 50px;
+    min-height: 1021px;
+}
+
+.fs .container {
+    position: relative;
+    z-index: 1;
+}
+
+.fs::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 34vw;
+    background: rgba(253, 184, 39, 1);
+
+
+}
+
+.fs__title{
+    font-weight: 700;
+    font-size: 84px;
+    line-height: 120%;
+    max-width: 600px;
+    align-items: center;
+    color: #FF800B;
+    margin: 0 0 20px;
+}
+
+.fs__title span{
+    color: rgba(35, 53, 6, 1);
+
+}
+
+.fs__text{
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    color: rgba(35, 53, 6, 0.65);
+    max-width: 456px;
+    margin: 0 0 20px;
+}
+
+.fs__img{
+    position: absolute;
+    right: -17vw;
+    top: -226px;
+}
+
+/*Featured product*/
+
+.featured{
+        padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.featured__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    color: #233506;
+    margin: 0 0 30px;
+}
+
+.featured__row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px;
+}
+
+.featured__col{    
+    max-width: 25%;
+    flex: 1 0 25%;
+    padding: 0 15px;
+}
+
+.feature{
+    margin: 0 0 30px;
+}
+
+.feature__img{
+    border-radius: 9px;
+}
+
+.feature__row{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature__title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    color: #02283F;
+}
+
+.featured__price{
+    font-size: 18px;
+    line-height: 21px;
+    color: #02283F;
+}
+
+.feature__weight{
+    font-size: 12px;
+    line-height: 14px;
+    color: rgba(2, 40, 63, 0.81);
+}
+
+.feature__btn{
+    background: #FDB827;
+    border-radius: 8px;
+    display: inline-block;
+    font-size: 18px;
+    color: #02283F;
+    padding: 10px 15px ;
+    border: 0;
+}
