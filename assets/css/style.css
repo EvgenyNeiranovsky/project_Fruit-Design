@@ -10,7 +10,7 @@ html {
     font-style: normal;
     line-height: 170%;
     color:  rgba(35, 53, 6, 1);
-    background: rgba(255, 249, 242, 1);
+    background: #FFFFFF;
 }
 
 .container {
@@ -150,8 +150,9 @@ html {
 /*Featured product*/
 
 .featured{
-        padding-top: 100px;
+    padding-top: 100px;
     padding-bottom: 100px;
+    
 }
 
 .featured__title{
@@ -334,7 +335,7 @@ html {
 
 .about{
     padding: 100px 0;
-    background:#FFF9F2 ;
+    background:#FFFFFF ;
     position: relative;
 }
 
@@ -398,3 +399,94 @@ html {
 }
 
 /*REVIEW*/
+
+.review{
+    padding: 100px 0;
+    position: relative;
+    background: #FFF9F2;
+}
+
+.review__block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.review__title{
+    font-weight: 700;
+    font-size: 70px;
+    line-height: 82px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #02283F;
+    padding-top: 147px;
+    margin-bottom: 60px;
+}
+
+.review__col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 826px;
+    height: 368px;
+    background: #FFFFFF;
+    border-radius: 64px;      
+}
+
+.review__col-left{
+    position: absolute;
+    top:540px;
+    left: 155px;
+    border-radius: 50%;
+}
+
+.review__col-right{
+    position: absolute;
+    top:540px;
+    left: 985px;
+    border-radius: 50%;
+}
+
+.review__text{
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 170%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #02283F;
+    max-width: 604px;    
+}
+
+.review__customers{
+    display: flex;
+    align-items: center;    
+}
+
+.review__customers img {
+    border-radius: 50%;
+    margin: 0 20px;    
+}
+
+.reviev__customer {
+    margin: 40px 0;
+}
+
+.review__name{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: rgba(2, 40, 63, 0.79);
+}
+
+.review__status{
+    font-weight: 400 ;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.04em;
+    color: rgba(2, 40, 63, 0.64);
+}
