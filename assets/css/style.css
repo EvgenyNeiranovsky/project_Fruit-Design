@@ -490,3 +490,93 @@ html {
     letter-spacing: 0.04em;
     color: rgba(2, 40, 63, 0.64);
 }
+
+/*FOOTER*/
+
+.footer{
+    padding: 100px 0;
+    position: relative;
+    background: #FFFFFF;
+}
+
+.footer__row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__fruity{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.fotter__title{
+    font-family:'Poppins';
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #243165;
+    
+}
+
+.footer__text{
+    font-family: 'Sofia Pro';
+    font-size: 17px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    color: rgba(55, 84, 101, 0.8);
+    max-width: 289px;
+    
+}
+
+.footer__icon{
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+
+.footer__icon button{
+    border: none;
+    background: #FFFFFF;
+    margin-right: 25px;
+}
+
+.footer__icon img {
+    background: #FFFFFF;
+}
+
+.footer__btn--fb{
+    width: 13px;
+    height: 21;
+}
+
+.footer__col{
+    max-width: 195px;
+}
+
+.footer_col-title{
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    color: #243165;
+}
+
+.fotter__list {
+    margin-top: 47px;
+}
+.fotter__list--li{
+    font-family: 'Sofia Pro';
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 28px;
+    color: rgba(55, 84, 101, 0.8);
+    margin-top: 27px ;
+}
+
