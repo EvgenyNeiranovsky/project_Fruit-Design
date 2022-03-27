@@ -580,3 +580,23 @@ html {
     margin-top: 27px ;
 }
 
+/*RIGHTS*/
+
+.rights{
+    
+    position: relative;
+    background: #FFFFFF;
+}
+
+.rights__text{
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(55, 84, 101, 1);
+    border-top: 1px solid #C4C4C4;
+    width: 1200px;
+    padding: 36px 0;
+    display: flex;
+    justify-content: center;
+}
