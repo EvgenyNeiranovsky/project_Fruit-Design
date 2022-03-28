@@ -369,21 +369,22 @@ html {
 /*ABOUT*/
 
 .about{
-    padding: 100px 0;
+    padding: 76px 0px;
+    margin-left: 43px;
     background:#FFFFFF ;
     position: relative;
 }
 
 .about__row::after{
     content: '';
-    width: 30vw;
-    height: 30vw;
-    border: 74px solid rgba(253, 184, 39, 0.23);
+    width: 40vw;
+    height: 40vw;
+    border: 76px solid rgba(253, 184, 39, 0.23);
     border-radius: 50%;
     display: block;
     position: absolute;
-    top: 132px;
-    left: 39vw;
+    top: 65px;
+    left: 61vw;
     z-index: 1;
 }
 
@@ -394,14 +395,19 @@ html {
     align-items: center;
 }
 
-.about__content{}
+.about__content{
+    width: 485px;
+    flex-wrap: wrap;
+}
 
 .about_title{
     font-weight: 700;
     font-size: 70px;
     line-height: 82px;
     color: #02283F;
-    margin: 0 0 30px;
+    margin: 0px 0 4px;
+    position: relative;
+    width: 298px;
 }
 
 .about__text{
@@ -409,26 +415,28 @@ html {
     font-size: 18px;
     line-height: 170%;
     color: #5F6672;
-    max-width: 485px;
-    margin: 0 0 50px;
+    width: 485px;
+    margin: 41px 0 28px;
 }
 
 .btn--about{
-    display:flex ;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     color: #FFFFFF;
     background: #FDB827;
     border-radius: 30px;
-    padding: 25px 34px;
+    padding: 29px 32px;
     width: 160px;
     height: 60px;
+    margin: 0px 5px 14px;
 
 }
 
 .about__img{
     border-radius: 75px;
-    margin-left: 126px;
+    margin-left: 132px;
+    margin-top: -35px;
     position: relative;
     z-index: 2;
 }
@@ -436,7 +444,7 @@ html {
 /*REVIEW*/
 
 .review{
-    padding: 100px 0;
+    padding: 0px 0;
     position: relative;
     background: #FFF9F2;
 }
@@ -455,7 +463,7 @@ html {
     align-items: center;
     text-align: center;
     color: #02283F;
-    padding-top: 147px;
+    padding-top: 66px;
     margin-bottom: 60px;
 }
 
@@ -472,15 +480,16 @@ html {
 
 .review__col-left{
     position: absolute;
-    top:540px;
-    left: 155px;
+    top: 340px;
+    
+    margin-left: -826px;
     border-radius: 50%;
 }
 
 .review__col-right{
     position: absolute;
-    top:540px;
-    left: 985px;
+    top: 340px;
+    left: 981px;
     border-radius: 50%;
 }
 
@@ -493,7 +502,8 @@ html {
     align-items: center;
     text-align: center;
     color: #02283F;
-    max-width: 604px;    
+    max-width: 604px;  
+   
 }
 
 .review__customers{
@@ -502,8 +512,9 @@ html {
 }
 
 .review__customers img {
-    border-radius: 50%;
-    margin: 0 20px;    
+    margin: 0 20px;  
+    padding: 5px 0px 0px 15px
+ 
 }
 
 .reviev__customer {
@@ -516,6 +527,7 @@ html {
     line-height: 36px;
     letter-spacing: 0.04em;
     color: rgba(2, 40, 63, 0.79);
+    padding: 15px 0px 0px;
 }
 
 .review__status{
@@ -529,7 +541,7 @@ html {
 /*FOOTER*/
 
 .footer{
-    padding: 100px 0;
+    padding: 153px  14px;
     position: relative;
     background: #FFFFFF;
 }
@@ -542,7 +554,7 @@ html {
 .footer__fruity{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: flex-start;
 
 }
 
@@ -555,6 +567,7 @@ html {
     align-items: center;
     color: #243165;
     
+    
 }
 
 .footer__text{
@@ -566,12 +579,14 @@ html {
     letter-spacing: 0.03em;
     color: rgba(55, 84, 101, 0.8);
     max-width: 289px;
+    padding-top: 24px;
     
 }
 
 .footer__icon{
     display: flex;
     flex-wrap: wrap;
+    padding-top: 29px;
     
 
 }
@@ -588,8 +603,26 @@ html {
 
 .footer__btn--fb{
     width: 13px;
-    height: 21;
+    margin: 0 -6px;
 }
+
+
+.footer__btn--tw{
+    margin-left: -6px;
+}
+
+.footer__btn--in{
+    padding: 0px 0 6px 0;
+    margin-left: -17px;
+}
+
+.footer__btn--yt{
+    margin-left: -15px;
+    padding-bottom: 1px;
+}
+
+
+
 
 .footer__col{
     max-width: 195px;
@@ -601,18 +634,17 @@ html {
     font-size: 18px;
     line-height: 28px;
     color: #243165;
+    padding-top: 11px;
 }
 
-.fotter__list {
-    margin-top: 47px;
-}
+
 .fotter__list--li{
     font-family: 'Sofia Pro';
     font-weight: 400;
     font-size: 17px;
     line-height: 28px;
     color: rgba(55, 84, 101, 0.8);
-    margin-top: 27px ;
+    margin-top: 15px ;
 }
 
 /*RIGHTS*/
@@ -621,6 +653,7 @@ html {
     
     position: relative;
     background: #FFFFFF;
+    margin-top: -207px;
 }
 
 .rights__text{
@@ -631,7 +664,7 @@ html {
     color: rgba(55, 84, 101, 1);
     border-top: 1px solid #C4C4C4;
     width: 1200px;
-    padding: 36px 0;
+    padding: 30px 35px 0 0;  
     display: flex;
     justify-content: center;
 }
