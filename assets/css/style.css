@@ -123,8 +123,8 @@ html {
 
 .burger{
     display: none;
-    width: 27px;
     height: 2px;
+    width: 27px;
     position: relative;
     background: #233506 ;
 }
@@ -138,7 +138,6 @@ html {
     display: block;
     height: 2px;
     background: #233506 ;
-
 }
 
 .burger::before{
@@ -146,20 +145,22 @@ html {
 }
 
 .burger::after{
-    top: -8px;
+    top: 8px;
 }
 
-.close {
-    display: block;
-    width: 27px;
+.close{
+    display: none;
     height: 2px;
+    width: 27px;
     position: relative;
     background: #233506 ;
     position: absolute;
-    top: 20px;
+    top: 30px;
     right: 20px;
-    transform: rotate(45deg) ;
+    transform: rotate(45deg);
 }
+
+
 
 .close::after{
     content: '';
@@ -192,21 +193,21 @@ html {
 /* 320px - 767.75px*/
     @media(max-width:767.75px) {
         .header__menu{
-            position:fixed;      
+            position: fixed;
             top: 0;
-            bottom: 0; 
+            bottom: 0;
             right: 0;
             width: 100%;
-            background-color:#FDB827 ;
-            display: block;
+            background-color: #FDB827;
+            display: block;    
             padding: 100px 20px;
             z-index: 1;
-            transform: translateX(0%);
-            transition: transform 0.4s;
+            transform: translateX(0);
+            transition: transform 0.8s;
         }
 
-        .header__menu .close {
-            transform: translateX(100%);
+        .header__menu .header__menu--close{
+            transform: translateX(100);
 
         }
 
@@ -226,7 +227,16 @@ html {
 
         .burger{
             display: block;
-    }
+        }
+
+        .header__menu .close {
+            transform: translateX(100%);
+
+        }
+        
+        .close,
+
+        
     }
 
 
