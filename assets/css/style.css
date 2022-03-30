@@ -123,14 +123,20 @@ html {
 
 .burger{
     display: none;
-    height: 2px;
+    height: 27px ;
     width: 27px;
+    position: relative;
+}
+
+.burger span{
+    width: 27px;
+    height: 2px;
     position: relative;
     background: #233506 ;
 }
 
-.burger::before,
-.burger::after{
+.burger span::before,
+.burger span::after{
     position: absolute;
     left: 0;
     right: 0;
@@ -140,29 +146,37 @@ html {
     background: #233506 ;
 }
 
-.burger::before{
+.burger span::before{
     top: -8px;
 }
 
-.burger::after{
+.burger span::after{
     top: 8px;
 }
 
 .close{
     display: none;
-    height: 2px;
+    height: 27px;
     width: 27px;
-    position: relative;
-    background: #233506 ;
     position: absolute;
     top: 30px;
     right: 20px;
-    transform: rotate(45deg);
+    
 }
 
 
+.close span{
+    background: #233506 ;
+    width: 27px;
+    height: 2px;
+    transform: rotate(45deg);
+    position: absolute;
+   
+    
 
-.close::after{
+}
+
+.close span::after{
     content: '';
     position: absolute;
     width: 27px;
@@ -840,7 +854,7 @@ html {
     line-height: 36px;
     letter-spacing: 0.04em;
     color: rgba(2, 40, 63, 0.64);
-}
+} 
 
 /*1200 + */
 /*992px - 1199.75px */
